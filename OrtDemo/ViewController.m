@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LandscapeViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,24 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)onPresent:(id)sender {
+    
+    LandscapeViewController *lands = [[LandscapeViewController alloc] init];
+  //  secondVC.delegate = self;
+    lands.modalPresentationStyle = UIModalPresentationFullScreen;
+   // secondVC.orientation = orientation;
+    [self presentViewController:lands animated:NO completion:nil];
+    
+}
+
+- (BOOL)shouldAutorotate{
+    return YES;
+}
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationPortrait;
+}
 
 @end

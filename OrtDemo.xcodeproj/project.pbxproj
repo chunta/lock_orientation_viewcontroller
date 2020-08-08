@@ -14,6 +14,8 @@
 		188333EF24DEC85000FC843B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188333EE24DEC85000FC843B /* Assets.xcassets */; };
 		188333F224DEC85000FC843B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188333F024DEC85000FC843B /* LaunchScreen.storyboard */; };
 		188333F524DEC85000FC843B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188333F424DEC85000FC843B /* main.m */; };
+		188333FE24DEC8E700FC843B /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188333FC24DEC8E700FC843B /* LandscapeViewController.m */; };
+		188333FF24DEC8E700FC843B /* LandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188333FD24DEC8E700FC843B /* LandscapeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		188333F124DEC85000FC843B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188333F324DEC85000FC843B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188333F424DEC85000FC843B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188333FB24DEC8E700FC843B /* LandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		188333FC24DEC8E700FC843B /* LandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		188333FD24DEC8E700FC843B /* LandscapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandscapeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,9 @@
 				188333F024DEC85000FC843B /* LaunchScreen.storyboard */,
 				188333F324DEC85000FC843B /* Info.plist */,
 				188333F424DEC85000FC843B /* main.m */,
+				188333FB24DEC8E700FC843B /* LandscapeViewController.h */,
+				188333FC24DEC8E700FC843B /* LandscapeViewController.m */,
+				188333FD24DEC8E700FC843B /* LandscapeViewController.xib */,
 			);
 			path = OrtDemo;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			files = (
 				188333F224DEC85000FC843B /* LaunchScreen.storyboard in Resources */,
 				188333EF24DEC85000FC843B /* Assets.xcassets in Resources */,
+				188333FF24DEC8E700FC843B /* LandscapeViewController.xib in Resources */,
 				188333ED24DEC85000FC843B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188333FE24DEC8E700FC843B /* LandscapeViewController.m in Sources */,
 				188333EA24DEC85000FC843B /* ViewController.m in Sources */,
 				188333E424DEC85000FC843B /* AppDelegate.m in Sources */,
 				188333F524DEC85000FC843B /* main.m in Sources */,
@@ -292,11 +302,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V72QYCH5UU;
 				INFOPLIST_FILE = OrtDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swift.devtest.OrtDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appier.rexdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,11 +320,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V72QYCH5UU;
 				INFOPLIST_FILE = OrtDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swift.devtest.OrtDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appier.rexdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
